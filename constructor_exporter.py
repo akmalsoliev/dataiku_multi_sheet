@@ -36,5 +36,7 @@ def xlsx_constructor(file_name = str, folder_name = str, sheet_names = list, dat
 
         shutil.move(excel_path, target_file)
         
-        return 'Job is completed!'
+        print("Job is completed!")
+        
+        return None
  
