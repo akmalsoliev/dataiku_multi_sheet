@@ -7,15 +7,15 @@ import pandas as pd
 
 def xlsx_constructor(file_name = str, folder_name = str, sheet_names = list, dataframe_list = list):
     """
-    Function to exports DataFrames to Multiple Worksheets Excel File.
+    Function to export DataFrames to Multiple Worksheets Excel File.
     
-    Upon recieveing 'Job is completed!' please check assigned folder for an Excel file.
+    Upon receiving 'Job is completed!' please check assigned folder for an Excel file.
     
-    :param file_name: Name of the Excel file to be created.
-    :param folder_name: Name of the folder where the Excel file will be exported to. 
+    :param: file_name: Name of the Excel file to be created.
+    :param: folder_name: Name of the folder where the Excel file will be exported to.
     NOTE: Please make sure that the folder exists. Follow README.md for more information. 
-    :param sheet_names: List of sheet names to be created in the Excel file. It is a list of strings.
-    :param dataframe_list: List of DataFrames to be exported to the Excel file. It is a list of DataFrames.
+    :param: sheet_names: List of sheet names to be created in the Excel file. It is a list of strings.
+    :param: dataframe_list: List of DataFrames to be exported to the Excel file. It is a list of DataFrames.
     :return: None
     """
     if len(sheet_names) != len(dataframe_list):
