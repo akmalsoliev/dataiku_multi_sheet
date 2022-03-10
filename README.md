@@ -22,15 +22,24 @@ DataIku currently offers multiple ways of constructing a folder, these are the s
 **NOTE:** Label is the name of the folder, that will be required as an input.
 
 ## How to use:
+
 Import the package to your `Library` section either using `Git` > `Import Git`. 
+
 Open up your notebook and import using: 
+
 `from dataiku_multi_sheet import xlsx_constructor`
-Upon receiving 'Job is completed!' please check assigned folder for an Excel file.
+
+Upon receiving 'Job is completed!' please check the assigned folder for an Excel file.
 
 ## Params:     
 :param: file_name: Name of the Excel file to be created.
+
 :param: folder_name: Name of the folder where the Excel file will be exported to.
+
 NOTE: Please make sure that the folder exists. Follow README.md for more information. 
+
 :param: sheet_names: List of sheet names to be created in the Excel file. It is a list of strings.
+
 :param: dataframe_list: List of DataFrames to be exported to the Excel file. It is a list of DataFrames.
+
 :return: None
